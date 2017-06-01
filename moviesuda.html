@@ -1,0 +1,313 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: black;
+}
+li ul { display: none; }
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: lightcoral;
+  color: rebeccaPurplel;
+}
+ul li a:hover { background:cornflowerblue; }
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+li:hover li { float: none; }
+li:hover a { background: mistyrose; }
+li:hover li a:hover { background: papayawhip; }
+.main-navigation li ul li { border-top: 0; }
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+ .image{
+  position:relative;
+  padding-left: -10pxpx;
+}
+h1{
+  position: absolute; 
+   top: 60px; 
+   left:565;
+   color:white; 
+   font-weight: bold;
+   font-size: 50px;
+ }
+p { 
+   position: absolute; 
+   top: 135px; 
+   left:615;
+   color:white; 
+   font-size: 15px;
+   font-weight: bold;
+}
+ #menu {
+    position: absolute;
+    top: 450px;
+    color:fuchsia;
+    left:350px;
+    
+}
+#menu lii{
+  font-weight: bold;
+    margin-left: 14px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+a.one:visited {color:black; font-size: 20px;}
+a.one:hover {color:coral; font-size: 20px;}
+body{
+  background-color: antiquewhite;
+  overflow-x:hidden;
+}
+a.two:link, a.two:visited {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: inset;
+    border-radius: 8px;
+}
+a.two:hover{
+  background-color: cyan;
+}
+a.two:link, a.two:visited {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: inset;
+    border-radius: 8px;
+}
+a.two:hover{
+  background-color: cyan;
+}
+summary{
+   margin-top: 30px;
+   margin-left:560px;
+   color:hotpink;
+}
+.div1{
+  width:100px;
+  height:30px;
+margin-left:-10px;
+  border-style: inset;
+  color:crimson;
+  background-color: antiquewhite;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+}
+h3{
+  margin-left: 600px;
+  font-size: 25px;
+  color:blueviolet;
+  margin-top: -280px;
+}
+h4{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+h5{
+  text-align: center;
+  font-size: 20px;
+  margin-top: -140px;
+  margin-left: 550px;
+}
+   .div3{
+width:965px;
+height:320px;
+margin-top: 10px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+     }
+h6{
+  margin-left: 600px;
+  font-size: 25px;
+  color:blueviolet;
+  margin-top: -280px;
+}
+h7{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 460px;
+}
+</style>
+<body >
+<nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="197">
+  <ul class="nav navbar-nav">
+    </ul>
+  <ul class="main-navigation">
+  <li><a href="finalf.html">Home</a></li>
+  <li><a href="#">Discover</a>
+    <ul>
+      <li><a href="history.html">History</a></li>
+      <li><a href="#">City</a>
+        <ul>
+          <li><a href="Jaipur.html">Jaipur</a></li>
+          <li><a href="Jaisalmer.html">Jaisalmer</a></li>
+          <li><a href="Udaipur.html">Udaipur</a></li>
+          <li><a href="Jodhpur.html">Jodhpur</a></li>
+          <li><a href="Bikaner.html">Bikaner</a></li>
+          <li><a href="Mountabu.html">Mount Abu</a></li>
+          <li><a href="SawaiMadhopur.html">Sawai Madhopur</a></li>
+          <li><a href="Alwar.html">Alwar</a></li>
+        </ul>
+        </li>
+<li><a href="#">Tradition</a>
+       <ul>
+          <li><a href="dance.html">Dance</a></li>
+          <li><a href="music.html">Music</a></li>
+<li><a href="Art.html">Art</a></li>
+<li><a href="rituals.html">Rituals</a></li>
+                  </ul>
+      </li>
+      <li><a href="#">Festival</a>
+<li><a href="#">Food</a>
+<li><a href="#">Famous People</a>
+<li><a href="#">Whether</a>
+<li><a href="#">Map</a>
+             </li>
+    </ul>
+  </li>
+  <li><a href="#">E-Tickting</a>
+<ul>
+<li><a href="#">Bus</a></li>
+      <li><a href="#">Train</a></li>
+</ul>
+  <li><a href="#">Hotel</a>  
+<li><a href="#">Help</a>
+<ul>
+<li><a href="#">Guide</a></li>
+      <li><a href="#">Police</a></li>
+</ul>
+</nav>
+<div class="image">
+<img src="uda.jpg" width="100%" height="500px">
+<h1 >Udaipur</h1>
+<p>The City of LAKE</p>
+<ull id="menu">
+        <lii><a href="Udaipur1.html">Home</a></lii>
+        <lii><a href="stayuda.html">Stay</a></lii>
+        <lii><a href="visituda.html">Visit</a></lii>
+          <lii><a href="moviesuda.html">Movies</a></lii>
+        <lii><a href="photouda.html">Photos</a></lii>
+    </ull>
+</src>
+<summary>
+<div class="div1">Cinemas</div>
+ <div class="div3">
+    <img src="inox crystal.jpg" width="450px" height="300px" title="Address=3 Panchsheel Marg, Surajpole,
+     Udaipur ,Rajasthan 313001 Ph-09352288888">
+  <h6>Fun Cinema Udaipur</h6>
+   <h7>Today<br></h7>,
+    <br>
+   <h7>Badrinath Ki Dulhania<br> </h7>
+   <h7> 7:15pm 9:30pm 10:15pm<br></h7> </h7>
+   <h7> jindua- Punjabi<br></h7>
+   <h7>  9:30pm <br></h7>
+   <h7>machine<br> </h7>
+   <h7>  10:25pm<br></h7>
+   </div>
+   <div class="div3">
+    <img src="funstar.jpg" width="450px" height="300px" title="Address=Surajpole,Bapu Bazaar Marg,
+     Badhrapuri,Udaipur, Rajsthan 313001 Ph-0982904188 ">
+  <h6>Picture Plaza Cinema</h6>
+   <h7>Today<br></h7>
+    <br>
+   <h7>Badrinath Ki Dulhania<br> </h7>
+   <h7> 10:00am 12:30pm 3:15pm 4:15pm 6:15pm 9:30pm 10:15pm<br></h7>
+   <h7>Beauty and the beast<br> </h7>
+   <h7> 10:00am  4:15pm 9:30pm 10:35pm<br></h7>
+   <h7>machine<br> </h7>
+   <h7>  01:55pm <br></h7>
+   <h7>AA gya hero<br> </h7>
+   <h7>  3:15pm <br></h7>
+   </div>
+   <div class="div3">
+    <img src="funstarcinemas.jpg" width="450px" height="300px" title="Address=5th floor lake city mall ashok nagar udaipur rajasthan 313001
+    ph-02942428586">
+  <h6>Inox-Lake City Mall</h6>
+   <h7>Today<br></h7>
+    <br>
+   <h7>Badrinath Ki Dulhania<br></h7>
+   <h7> 10:00am 12:30pm  6:15pm 9:30pm 10:15pm<br></h7>
+   <h7>Aa Gya Hero<br> </h7>
+   <h7> 10:00a 6:10pm 10:15pm<br></h7>
+   <h7>machine<br> </h7>
+   <h7> 10:15pm<br></h7>
+   </div>
+   <div class="div3">
+    <img src="vishwakarma.jpg" width="450px" height="300px" title="address-the celebration mall udaipur nh8 opposite devendra dham pullabhuwana bhuwana udaipur rajastan 303001 ph 0880090009">
+  <h6>PVR Celebration</h6>
+   <h7>Today<br></h7>
+    <br>
+   <h7>Badrinath Ki Dulhania<br></h7>
+   <h7> 10:00am 12:30pm 3:15pm 4:15pm 6:15pm 9:30pm 10:15pm<br></h7>
+   <h7>machine<br> </h7>
+   <h7> 10:00am  9:30pm 10:15pm<br></h7>
+   <h7>aa gya hero<br></h7>
+   <h7> 10:00am  06:15pm<br></h7> </h7>
+   </div>
+   <div class="div3">
+    <img src="vishva.jpg" width="450px" height="300px" title="Address= City's Prime Health Care Area, Udaipur, Rajasthan 313001">
+  <h6>Swapnalok Cinema</h6>
+   <h7>Today<br></h7>
+    <br>
+   <h7>Badrinath Ki Dulhania<br> </h7>
+   <h7> 10:00am 12:30pm 6:15pm  9:30pm 10:15pm<br></h7>
+   <h7>Machine<br> </h7>
+   <h7>4:15pm 10:30pm 11:15pm<br></h7>
+   <h7>aa gya hero<br> </h7>
+   <h7>12:30pm <br></h7>
+   <h7>Beautiful And The Beast<br> </h7>
+   <h7> 10:00am  10:15pm<br></h7>
+   </div>
+  </summary>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

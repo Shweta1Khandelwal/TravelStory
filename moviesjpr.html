@@ -1,0 +1,462 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: black;
+}
+li ul { display: none; }
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: lightcoral;
+  color: rebeccaPurplel;
+}
+ul li a:hover { background:cornflowerblue; }
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+li:hover li { float: none; }
+li:hover a { background: mistyrose; }
+li:hover li a:hover { background: papayawhip; }
+.main-navigation li ul li { border-top: 0; }
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+ .image{
+  position:relative;
+  padding-left: -10pxpx;
+}
+h1{position: absolute; 
+   top: 60px; 
+   left: 600; 
+   color:pink; 
+   font-weight: bold;
+   font-size: 50px;
+ }
+p { 
+   position: absolute; 
+   top: 135px; 
+   left: 682; 
+   color:pink; 
+   font-size: 15px;
+   font-weight: bold;
+}
+h {
+  position: absolute; 
+   top: 50px; 
+   left: 665; 
+   color:pink; 
+   font-weight: bold;
+   font-size: 80px;
+ }
+ #menu {
+    position: absolute;
+    top: 450px;
+    color:fuchsia;
+    left:350px;
+    
+}
+#menu lii{
+  font-weight: bold;
+    margin-left: 14px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+a.one:visited {color:black; font-size: 20px;}
+a.one:hover {color:coral; font-size: 20px;}
+body{
+  background-color: antiquewhite;
+  overflow-x:hidden;
+}
+a.two:link, a.two:visited {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: inset;
+    border-radius: 8px;
+}
+a.two:hover{
+  background-color: cyan;
+}
+a.two:link, a.two:visited {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: inset;
+    border-radius: 8px;
+}
+a.two:hover{
+  background-color: cyan;
+}
+summary{
+   margin-top: 30px;
+   margin-left:560px;
+   color:hotpink;
+}
+.div1{
+  width:100px;
+  height:30px;
+margin-left:-10px;
+  border-style: inset;
+  color:crimson;
+  background-color: antiquewhite;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+}
+h3{
+  margin-left: 600px;
+  font-size: 25px;
+  color:blueviolet;
+  margin-top: -280px;
+}
+h4{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+h5{
+  text-align: center;
+  font-size: 20px;
+  margin-top: -140px;
+  margin-left: 550px;
+}
+ .div2{
+width:965px;
+height:310px;
+margin-top: 20px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+     }
+   .div3{
+width:965px;
+height:320px;
+margin-top: 10px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+     }
+h6{
+  margin-left: 600px;
+  font-size: 25px;
+  color:blueviolet;
+  margin-top: -280px;
+}
+h7{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 460px;
+}
+ .div4{
+width:965px;
+height:320px;
+margin-top: 20px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+     }
+.div5{
+width:965px;
+height:320px;
+margin-top: 20px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+     }
+     .div6{
+width:965px;
+height:320px;
+margin-top: 20px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+     }
+</style>
+<body >
+<nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="197">
+  <ul class="nav navbar-nav">
+    </ul>
+  <ul class="main-navigation">
+  <li><a href="finalf.html">Home</a></li>
+  <li><a href="#">Discover</a>
+    <ul>
+      <li><a href="history.html">History</a></li>
+      <li><a href="#">City</a>
+        <ul>
+          <li><a href="Jaipur.html">Jaipur</a></li>
+          <li><a href="Jaisalmer.html">Jaisalmer</a></li>
+          <li><a href="Udaipur.html">Udaipur</a></li>
+          <li><a href="Jodhpur.html">Jodhpur</a></li>
+          <li><a href="Bikaner.html">Bikaner</a></li>
+          <li><a href="Mountabu.html">Mount Abu</a></li>
+          <li><a href="SawaiMadhopur.html">Sawai Madhopur</a></li>
+          <li><a href="Alwar.html">Alwar</a></li>
+        </ul>
+        </li>
+<li><a href="#">Tradition</a>
+       <ul>
+          <li><a href="dance.html">Dance</a></li>
+          <li><a href="music.html">Music</a></li>
+<li><a href="Art.html">Art</a></li>
+<li><a href="rituals.html">Rituals</a></li>
+                  </ul>
+      </li>
+      <li><a href="#">Festival</a>
+<li><a href="#">Food</a>
+<li><a href="#">Famous People</a>
+<li><a href="#">Whether</a>
+<li><a href="#">Map</a>
+             </li>
+    </ul>
+  </li>
+  <li><a href="#">E-Tickting</a>
+<ul>
+<li><a href="#">Bus</a></li>
+      <li><a href="#">Train</a></li>
+</ul>
+  <li><a href="#">Hotel</a>  
+<li><a href="#">Help</a>
+<ul>
+<li><a href="#">Guide</a></li>
+      <li><a href="#">Police</a></li>
+</ul>
+</nav>
+<div class="image">
+<img src="jprfinal.jpg" width="100%" height="500px">
+<h1 >Jai</h1>
+<h>p</h>
+   <h1 style="left:710px">ur</h1>
+<p>The PINK City</p>
+<ull id="menu">
+        <lii><a href="jaipur1.html">Home</a></lii>
+        <lii><a href="stayjpr.html">Stay</a></lii>
+        <lii><a href="Visitjpr.html">Visit</a></lii>
+          <lii><a href="Moviesjpr.html">Movies</a></lii>
+        <lii><a href="photojpr.html">Photos</a></lii>
+    </ull>
+</src>
+<summary>
+  <div class="div1">Cinemas</div>
+  <div class="div2">
+    <img src="rajmandir.jpg" widht="350px" height="300px" title="Address: C-16, Bhagwan Das Road, Panch Batti, Jaipur, Rajasthan 302001
+   Phone: 0141 237 9372">
+  <h3>RajMandir</h3>
+   <h4>Today<br>
+    <br>
+    Logan<br>
+12:30pm 3:30pm<br>
+Rangoon<br>
+6:30pm 9:30pm</h4>
+<h5>Tomorrow<br>
+  <br>
+  Logan<br>
+12:30pm3:30pm<br>
+Rangoon<br>
+6:30pm9:30pm
+  </h5>
+</div>
+  <div class="div3">
+    <img src="Inox.jpeg" width="450px" height="300px" title="Address: City Plaza Mall, Jhotwara Road, Sindhi Colony, Bani Park, Jaipur, Rajasthan 302016
+Phone:0141 228 2289">
+  <h6>INOX - City Plaza Mall</h6>
+   <h7>Today<br></h7>
+    <br>
+   <h7>Commando 2 - Hindi <br></h7>
+   <h7>09:00AM 10:00AM 12:45PM 03:45PM 06:45PM 9:30pm <br></h7>
+<h7>Logan (Hindi) <br></h7>
+<h7> 09:15 AM 12:05 PM 03:00 PM 06:10 PM 09:30 PM<br></h7>
+<h7>Rangoon - Hindi 12:10 PM<br></h7>
+<h7>Jolly LLB 2 - Hindi 03:15 PM 06:01 PM<br></h7>
+<h7>The Ghazi Attack - Hindi 09:00 PM </h7>
+</div>
+<div class="div4">
+    <img src="Inox2.jpg" width="450px" height="300px" title="Address: Vaibhav Complex, C-1 Block, Amrapali Circle, Vaishali Nagar, Jaipur, Rajasthan 302021
+Phone: 0141 511 4482">
+<h6>Inox-Amrapali</h6>
+<h7>Today</h7>
+    <br>
+<h7>Badrinath Ki Dulhania - Hindi</h7>
+<h7> 09:45 AM 12:45 PM 03:00 PM 03:45 PM 06:45 PM 09:45 PM</h7>
+<h7>Kong: Skull Island (3D) (Hindi)</h7>
+<h7> 10:00 AM 12:30 PM 06:30 PM 09:30 PM</h7>
+</div>
+<div class="div5">
+    <img src="funstar.jpg" width="450px" height="300px" title="Address: Time Square Mall, Sector-2,, Central Spine, Vidhyadhar Nagar, Jaipur, Rajasthan 302039
+Phone:081048 11124">
+<h6>Funstar Cinemas  </h6>
+<h7>Today</h7>
+<br>
+<h7>Badrinath Ki Dulhania</h7>
+<h7>12:30pm3:30pm6:30pm9:30pm</h7>
+<h7>Kong: Skull Island</h7>
+<h7>12:45pm3:45pm6:45pm9:45pm</h7>
+</div>
+<div class="div6">
+    <img src="golcha.jpg" width="450px" height="300px" title="Address: Opp. Ram Niwas Garden, New Gate, Chaura Rasta, Jaipur, Rajasthan 302004
+Phone:0141 257 8683
+">
+<h6>The Golcha Cinema </h6>
+<h7>Today</h7>
+<br>
+<h7>Badrinath Ki Dulhania - Hindi</h7>
+<h7> 12:30 PM 03:30 PM 06:30 PM 09:30 PM</h7>
+<h7>Commando 2 - Hindi</h7>
+<h7> 12:30 PM 06:30 PM</h7>
+<h7>Kong: Skull Island (3D) (Hindi) - Hindi</h7>
+<h7> 12:30 PM 03:30 PM 06:30 PM 09:30 PM</h7>
+<h7>Logan (Hindi) - Hindi</h7>
+<h7> 03:30 PM 09:30 PM</h7>
+</div>
+<div class="div6">
+    <img src="Carnival.jpg" width="450px" height="300px" title="Address: B-6, Central Spine Rd, Sector 2, Central Spine, Vidhyadhar Nagar, Jaipur, Rajasthan 302039
+Phone:093141 06185">
+<h6>Carnival Cinemas Cinestar </h6>
+<h7>Today</h7>
+<br>
+<h7>Badrinath Ki Dulhania - Hindi</h7>
+<h7> 10:00 AM 12:30 PM 03:15 PM 06:15 PM 09:15 PM</h7>
+<h7>Kong: Skull Island (3D) (Hindi) - Hindi</h7>
+<h7> 10:05 AM 12:15 PM 03:30 PM 06:30 PM 09:30 PM</h7>
+</div>
+<div class="div6">
+    <img src="Alka.jpg" width="450px" height="300px" title="Address: Vidhyadhar Nagar Mode, Near Dadi Badi Market, Sikar Road, Jaipur, Rajasthan 302013
+Phone: 0141 223 1892">
+<h6>Alka Theatre </h6>
+<h7>Today</h7>
+<br>
+<h7>Kong: Skull Island (UA)</h7>
+ <h7>Hindi 2D, 12:30 PM 03:30 PM</h7>
+<h7>Kong: Skull Island (UA)</h7>
+<h7>English, 2D 06:30 PM 09:30 PM</h7>
+
+</div>
+<div class="div6">
+    <img src="inox.png" width="450px" height="300px" title="Address: 3rd Floor, Elements Mall, Ajmer Road, Jaipur, Rajasthan 302021
+Phone:080802 11111">
+<h6>INOX </h6>
+<h7>Today</h7>
+<br>
+<h7>Kong: Skull Island (3D) - English</h7>
+<h7>12:30 PM 03:45 PM 07:10 PM 10:30 PM</h7>
+<h7>Badrinath Ki Dulhania - Hindi</h7>
+<h7>03:01 PM 06:50 PM 10:25 PM</h7>
+<h7>Logan - English</h7>
+<h7>03:25 PM 10:15 PM</h7>
+</div>
+<div class="div6">
+    <img src="Cinepolis.jpg" width="450px" height="300px" title="Address: # 3rd Floor, Triton Mega Mall, Maharaja Shekhoje Roa Circle, Chomu Pulaia, Jhotwara Road, Jaipur, Rajasthan 302012
+Phone:0141 515 6728">
+<h6>Cinepolis </h6>
+<h7>Today</h7>
+<br>
+<h7>Badrinath Ki Dulhania - Hindi
+<h7>09:00 AM 10:20 AM 11:00 AM 12:05 PM 01:25 PM</h7>
+<h7> 02:00 PM 04:30 PM 05:45 PM 07:35 PM 09:10 PM 10:40 PM</h7>
+<h7>Kong: Skull Island (3D) (Hindi) - Hindi</h7>
+<h7>09:15 AM 11:50 AM 03:10 PM 05:00 PM 10:15 PM</h7>
+<h7>Kong: Skull Island (3D) - English</h7>
+<h7>02:25 PM 07:40 PM</h7>
+</div>
+<div class="div6">
+    <img src="FunstarCinemas.jpg" width="450px" height="300px" title="Address: Time Square Mall, Sector-2,, Central Spine, Vidhyadhar Nagar, Jaipur, Rajasthan 302039
+Phone:081048 11124
+">
+<h6>Funstar Cinemas </h6>
+<h7>Today</h7>
+<br>
+<h7>Badrinath Ki Dulhania</h7>
+<h7>9:45am12:30pm3:30pm6:30pm9:30pm</h7>
+<h7>Kong: Skull Island</h7>
+<h7>10:00am12:45pm3:45pm6:45pm9:45pm</h7>
+</div>
+<div class="div6">
+    <img src="Polo.jpg" width="450px" height="300px" title="Address: Station Rd, Kanti Nagar, Sindhi Camp, Jaipur, Rajasthan 302001
+Phone:070213 71733">
+<h6>Polo Victory Cinema </h6>
+<h7>Today</h7>
+<br>
+<h7>Badrinath Ki Dulhania</h7>
+<h7>12:30pm3:30pm6:30pm9:30pm</h7>
+</div>
+<div class="div6">
+    <img src="Inox Crystal.jpg" width="450px" height="300px" title="Address: 3rd Floor, Crystal Palm Mall, Sardar Patel Road, Shivaji Nagar, Jaipur.
+Phone: 0141 511 6511">
+<h6>Inox Crystal Palm </h6>
+<h7>Today</h7>
+<br>
+<h7>Kong: Skull Island (3D) (Hindi) - Hindi</h7>
+<h7>12:06 PM</h7>
+<h7>Kong: Skull Island (3D) - English</h7>
+<h7> 09:31 AM 02:41 PM 05:16 PM 10:25 PM</h7>
+<h7>Badrinath Ki Dulhania - Hindi</h7>
+<h7>09:45 AM 10:55 AM 12:45 PM 03:45 PM 04:45 PM</h7>
+<h7> 06:45 PM 07:40 PM 09:45 PM 10:35 PM</h7>
+</div>
+<div class="div6">
+    <img src="First.jpg" width="450px" height="300px" title="Address: Jaipur Cityplex Mall. 1, Ashram Marg, Tonk Road Junction, Near Hotel Fortune Park Bella Casa, Jaipur, Rajasthan 302018
+Phone:0141 272 4509">
+<h6>First Cinema </h6>
+<h7>Today</h7>
+<br>
+<h7>Kong: Skull Island (Hindi) - Hindi</h7>
+<h7>09:30 AM 11:50 AM 07:00 PM</h7>
+<h7>Badrinath Ki Dulhania - Hindi</h7>
+<h7>09:45 AM 12:30 PM 02:00 PM 03:30 PM 04:30 PM</h7>
+<h7>06:30 PM 09:15 PM 09:50 PM</h7>
+</div>
+  </summary>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

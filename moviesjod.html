@@ -1,0 +1,309 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: black;
+}
+li ul { display: none; }
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: lightcoral;
+  color: rebeccaPurplel;
+}
+ul li a:hover { background:cornflowerblue; }
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+li:hover li { float: none; }
+li:hover a { background: mistyrose; }
+li:hover li a:hover { background: papayawhip; }
+.main-navigation li ul li { border-top: 0; }
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+ .image{
+  position:relative;
+  padding-left: -10pxpx;
+}
+h1{
+  position: absolute; 
+   top: 60px; 
+   left:565;
+   color:Blue; 
+   font-weight: bold;
+   font-size: 50px;
+ }
+p { 
+   position: absolute; 
+   top: 135px; 
+   left:615;
+   color:Blue; 
+   font-size: 15px;
+   font-weight: bold;
+}
+ #menu {
+    position: absolute;
+    top: 450px;
+    color:fuchsia;
+    left:350px;
+    
+}
+#menu lii{
+  font-weight: bold;
+    margin-left: 14px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+a.one:visited {color:black; font-size: 20px;}
+a.one:hover {color:coral; font-size: 20px;}
+body{
+  background-color: antiquewhite;
+  overflow-x:hidden;
+}
+a.two:link, a.two:visited {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: inset;
+    border-radius: 8px;
+}
+a.two:hover{
+  background-color: cyan;
+}
+a.two:link, a.two:visited {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: inset;
+    border-radius: 8px;
+}
+a.two:hover{
+  background-color: cyan;
+}
+summary{
+   margin-top: 30px;
+   margin-left:560px;
+   color:hotpink;
+}
+.div1{
+  width:100px;
+  height:30px;
+margin-left:-10px;
+  border-style: inset;
+  color:crimson;
+  background-color: antiquewhite;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+}
+h3{
+  margin-left: 600px;
+  font-size: 25px;
+  color:blueviolet;
+  margin-top: -280px;
+}
+h4{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+h5{
+  text-align: center;
+  font-size: 20px;
+  margin-top: -140px;
+  margin-left: 550px;
+}
+   .div3{
+width:965px;
+height:320px;
+margin-top: 10px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+     }
+h6{
+  margin-left: 600px;
+  font-size: 25px;
+  color:blueviolet;
+  margin-top: -280px;
+}
+h7{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 460px;
+}
+</style>
+<body >
+<nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="197">
+  <ul class="nav navbar-nav">
+    </ul>
+  <ul class="main-navigation">
+  <li><a href="finalf.html">Home</a></li>
+  <li><a href="#">Discover</a>
+    <ul>
+      <li><a href="history.html">History</a></li>
+      <li><a href="#">City</a>
+        <ul>
+          <li><a href="Jaipur.html">Jaipur</a></li>
+          <li><a href="Jaisalmer.html">Jaisalmer</a></li>
+          <li><a href="Udaipur.html">Udaipur</a></li>
+          <li><a href="Jodhpur.html">Jodhpur</a></li>
+          <li><a href="Bikaner.html">Bikaner</a></li>
+          <li><a href="Mountabu.html">Mount Abu</a></li>
+          <li><a href="SawaiMadhopur.html">Sawai Madhopur</a></li>
+          <li><a href="Alwar.html">Alwar</a></li>
+        </ul>
+        </li>
+<li><a href="#">Tradition</a>
+       <ul>
+          <li><a href="dance.html">Dance</a></li>
+          <li><a href="music.html">Music</a></li>
+<li><a href="Art.html">Art</a></li>
+<li><a href="rituals.html">Rituals</a></li>
+                  </ul>
+      </li>
+      <li><a href="#">Festival</a>
+<li><a href="#">Food</a>
+<li><a href="#">Famous People</a>
+<li><a href="#">Whether</a>
+<li><a href="#">Map</a>
+             </li>
+    </ul>
+  </li>
+  <li><a href="#">E-Tickting</a>
+<ul>
+<li><a href="#">Bus</a></li>
+      <li><a href="#">Train</a></li>
+</ul>
+  <li><a href="#">Hotel</a>  
+<li><a href="#">Help</a>
+<ul>
+<li><a href="#">Guide</a></li>
+      <li><a href="#">Police</a></li>
+</ul>
+</nav>
+<div class="image">
+<img src="jodhpur.jpg" width="1280px" height="500px">
+<h1 >Jodhpur</h1>
+<p>The Blue City</p>
+<ull id="menu">
+        <lii><a href="Jodhpur.html">Home</a></lii>
+        <lii><a href="stayJod.html">Stay</a></lii>
+        <lii><a href="visitJod.html">Visit</a></lii>
+          <lii><a href="moviesJod.html">Movies</a></lii>
+        <lii><a href="photoJod.html">Photos</a></lii>
+    </ull>
+</src>
+<summary>
+ <div class="div1">Cinemas</div>
+ <div class="div3">
+    <img src="carnival cinema.jpg" width="450px" height="300px" title="Address - Blue City Mall Circuit House Jodhpur Rajasthan 342001 Ph-02912513388">
+  <h6>Carnival Cinema</h6>
+   <h7>Today<br></h7>
+    <br>
+   <h7>Badrinath Ki Dulhania<br></h7>
+   <h7> 10:00am 12:30pm 3:15pm 4:15pm 6:15pm 9:30pm 10:15pm</h7>
+   <h7>Beauty And The Beast -Hindi<br></h7>
+   <h7>10:00am 6:10pm 10:30pm</h7>
+   <h7>Machine<br></h7>
+   <h7>10:15am 1:15pm 3:30pm</h7>
+   <h7> Aa Gya Hero<br><br></h7>
+   <h7>12:40pm</h7>
+   <h7>Trapped 3d-Hindi<br></h7>
+   <h7>8:45am</h7>
+      </div>
+      <div class="div3">
+    <img src="miraj.jpg" width="450px" height="300px" title="Address-4th floor,Ashapurna Mall Sector-E 
+    Shastri Nagar Jodhpur Rajsthan 342003 Ph-02912772808">
+  <h6>Miraj Bioscope Cinemas</h6>
+   <h7>Today<br></h7>
+    <br>
+   <h7> Machine<br></h7>
+   <h7>09:15am 11:15am 5:10pm</h7>
+   <h7>Badrinath Ki Dulhania<br></h7>
+   <h7> 09:00am 12:30pm 3:15pm 6:15pm 9:15pm 10:30pm </h7>
+   <h7>Beauty And The Beast -Hindi<br></h7>
+   <h7>02:00pm 8:10pm</h7>
+   <h7>Badrinath Ki Dulhania<br></h7>
+   <h7> 10:00am 12:30pm 3:15pm 4:15pm 6:15pm 9:30pm 10:15pm</h7>
+
+   </div>
+   <div class="div3">
+    <img src="inox2.jpg" width="450px" height="300px" title="address-Ansal Royal Plaza ,New Stadium High Court Road Jodhpur Rajasthan 342001 ph-02915100071">
+  <h6>INOX Multiplex</h6>inox
+   <h7>Today<br></h7>
+    <br>
+    <h7> Machine<br></h7>
+   <h7>09:00am 10:15am </h7>
+   <h7>Beauty And The Beast -Hindi <br></h7>
+   <h7>09:30am 12:10pm</h7>
+   7>Trapped 3d-Hindi<br></h7>
+   <h7>02:45pm 08:30pm</h7>
+   </div>
+   <div class="div3">
+    <img src="anand.jpg" width="450px" height="300px" title="Address=Gali no.5 Chopasani rd ,Agarwal ki Bagechi,
+    Pratab Nagar,Jodhpur,Rajasthan  342001 ph-02912771786">
+  <h6>New Kohinoor Cinema</h6>
+   <h7>Today<br></h7>
+    <br>
+   <h7>Badrinath Ki Dulhania<br></h7>
+   <h7> 09:00am 12:30pm 3:15pm 6:15pm 9:15pm 10:30pm </h7>
+   </div>
+   <div class="div3">
+    <img src="Inox Crystal.jpg" width="450px" height="300px" title="">
+  <h6>Anand Cinema Hall</h6>
+   <h7>Today<br></h7>
+    <br>
+    <h7>Badrinath Ki Dulhania<br></h7>
+   <h7> 09:30am 12:00pm 3:30pm 07:15pm 9:30pm></h7>
+   <h7> Machine<br></h7>
+   <h7>10:00am  01:30pm</h7> 
+   </div>
+  </summary>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
