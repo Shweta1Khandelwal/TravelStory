@@ -1,0 +1,880 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: black;
+}
+li ul { display: none; }
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: lightcoral;
+  color: rebeccaPurplel;
+}
+ul li a:hover { background:cornflowerblue; }
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+li:hover li { float: none; }
+li:hover a { background: mistyrose; }
+li:hover li a:hover { background: papayawhip; }
+.main-navigation li ul li { border-top: 0; }
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+ .image{
+  position:relative;
+  padding-left: -10pxpx;
+}
+h1{
+  position: absolute; 
+   top: 60px; 
+   left:480;
+   color:khaki; 
+   font-weight: bold;
+   font-size: 50px;
+ }
+ #menu {
+    position: absolute;
+    top: 450px;
+    color:fuchsia;
+    left:350px;
+    
+}
+#menu lii{
+  font-weight: bold;
+    margin-left: 14px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+aside{
+  margin-top: -10px;
+   margin-left:1000px;
+   color:black;
+  padding: 1em;
+}
+a.one:visited {color:black; font-size: 20px;}
+a.one:hover {color:coral; font-size: 20px;}
+summary{
+   margin-top: -170px;
+   margin-left:560px;
+}
+#see li2{
+    font-size: 20px;
+     margin-left:-20px;
+ }
+.div1{
+  width:100px;
+  height:30px;
+margin-left:-10px;
+margin-top: 30px;
+  border-style: outset;
+  border-radius: 18px;
+  color:crimson;
+  background-color: antiquewhite;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+}
+a.two:link, a.two:visited {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: inset;
+    border-radius: 8px;
+}
+a.two:hover{
+  background-color: cyan;
+}
+   .{
+    margin-top: 20px;
+width:905px;
+height:500px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h3{
+    position: absolute; 
+   top:820px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 713px;
+}
+h4{
+  font-size: 17.5px;
+  text-align: center;
+}
+  .{
+    margin-top: 20px;
+width:905px;
+height:430px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h5{
+    position: absolute; 
+   top:1350px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 683px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:470px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h6{
+    position: absolute; 
+   top:1800px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 706px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:420px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h7{
+    position: absolute; 
+   top:2295px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 703px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:420px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h8{
+    position: absolute; 
+   top:2735px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 718px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:420px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h9{
+    position: absolute; 
+   top:3175px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 668px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:420px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h10{
+    position: absolute; 
+   top:3615px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 708px;
+}
+. {
+    margin-top: 20px;
+width:905px;
+height:420px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h11{
+    position: absolute; 
+   top:4055px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 592px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h12{
+    position: absolute; 
+   top:4495px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 642px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:370px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h13{
+    position: absolute; 
+   top:4905px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 644px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:370px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h14{
+    position: absolute; 
+   top:5295px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 699px;
+}
+. {
+    margin-top: 20px;
+width:905px;
+height:360px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h15{
+    position: absolute; 
+   top:5683px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 544px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h16{
+    position: absolute; 
+   top:6065px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 569px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h17{
+    position: absolute; 
+   top:6475px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 614px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h18{
+    position: absolute; 
+   top:6885px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 644px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:370px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h19{
+    position: absolute; 
+   top:7295px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 754px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:370px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h20{
+    position: absolute; 
+   top:7685px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 554px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h21{
+    position: absolute; 
+   top:8075px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 724px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h22{
+    position: absolute; 
+   top:8485px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 699px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h23{
+    position: absolute; 
+   top:8895px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 624px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h24{
+    position: absolute; 
+   top:9305px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 649px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:410px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h25{
+    position: absolute; 
+   top:9715px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 614px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h26{
+    position: absolute; 
+   top:10145px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 670px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:500px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h27{
+    position: absolute; 
+   top:10555px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 704px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:490px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h28{
+    position: absolute; 
+   top:11075px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 738px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:510px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h29{
+    position: absolute; 
+   top:11585px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 734px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h30{
+    position: absolute; 
+   top:12115px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 670px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:500px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h31{
+    position: absolute; 
+   top:12525px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 614px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:445px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h32{
+    position: absolute; 
+   top:13045px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 594px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:440px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h33{
+    position: absolute; 
+   top:13510px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 654px;
+}
+body{
+  background-color: antiquewhite;
+  overflow-x:hidden; 
+}
+</style>
+<body >
+<nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="197">
+  <ul class="nav navbar-nav">
+    </ul>
+  <ul class="main-navigation">
+  <li><a href="finalf.html">Home</a></li>
+  <li><a href="#">Discover</a>
+    <ul>
+      <li><a href="history.html">History</a></li>
+      <li><a href="#">City</a>
+        <ul>
+          <li><a href="Jaipur.html">Jaipur</a></li>
+          <li><a href="Jaisalmer.html">Jaisalmer</a></li>
+          <li><a href="Udaipur.html">Udaipur</a></li>
+          <li><a href="Jodhpur.html">Jodhpur</a></li>
+          <li><a href="Bikaner.html">Bikaner</a></li>
+          <li><a href="Mountabu.html">Mount Abu</a></li>
+          <li><a href="SawaiMaodhopur.html">Sawai Maodhopur</a></li>
+          <li><a href="Alwar.html">Alwar</a></li>
+        </ul>
+        </li>
+<li><a href="#">Tradition</a>
+       <ul>
+          <li><a href="dance.html">Dance</a></li>
+          <li><a href="music.html">Music</a></li>
+<li><a href="Art.html">Art</a></li>
+<li><a href="rituals.html">Rituals</a></li>
+                  </ul>
+      </li>
+      <li><a href="#">Festival</a>
+<li><a href="#">Food</a>
+<li><a href="#">Famous People</a>
+<li><a href="#">Whether</a>
+<li><a href="#">Map</a>
+             </li>
+    </ul>
+  </li>
+  <li><a href="#">E-Tickting</a>
+<ul>
+<li><a href="#">Bus</a></li>
+      <li><a href="#">Train</a></li>
+</ul>
+  <li><a href="#">Hotel</a>  
+<li><a href="#">Help</a>
+<ul>
+<li><a href="#">Guide</a></li>
+      <li><a href="#">Police</a></li>
+</ul>
+</nav>
+<div class="image">
+<img src="sawai.jpg" width="100" height="500px">
+<h1 >Sawai Maodhopur</h1>
+<ull id="menu">
+        <lii><a href="sawaimadhopur1.html">Home</a></lii>
+        <lii><a href="staysawai.html">Stay</a></lii>
+        <lii><a href="visitsawai.html">Visit</a></lii>
+          <lii><a href="moviessawai.html">Movies</a></lii>
+        <lii><a href="photosawai.html">Photos</a></lii>
+    </ull>
+</src>
+<aside>
+    <h2>Plan a Trip</h2>
+     <lii><h4><a class="one" href="staysawai.html">Book A Hotel</a></h4></lii>
+        <lii><h4><a class="one" href="guidesawai.html">Take A Guide</a></h4></lii>
+        <lii><h4><a  class="one"href="eventssawai.html">Upcomig Events</a></h4></lii>
+  </aside>
+ <summary>
+  <div class="div1">SEE</div>
+  <div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h3><a class="two" href=".html"></a></h3>
+   <h4></h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h5><a class="two" href=".html"></a></h5>
+   <h4></h4>
+  </div>
+  <img src=".jpg" width="900px" height="300px">
+    <h6><a class="two" href=".html"></a></h6>
+   <h4> </h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h7><a class="two" href=".html"></a></h7>
+   <h4></h4>
+  </div>
+  <img src=".jpg" width="900px" height="300px">
+    <h8><a class="two" href=".html"></a></h8>
+   <h4> </h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h9><a class="two" href=".html"></a></h9>
+   <h4></h4>
+  </div>
+  <img src=".jpg" width="900px" height="300px">
+    <h10><a class="two" href=".html"></a></h10>
+   <h4> </h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h11><a class="two" href=".html"></a></h11>
+   <h4></h4>
+  </div>
+  <img src=".jpg" width="900px" height="300px">
+    <h12><a class="two" href=".html"></a></h12>
+   <h4> </h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h13><a class="two" href=".html"></a></h13>
+   <h4></h4>
+  </div>
+  <img src=".jpg" width="900px" height="300px">
+    <h14><a class="two" href=".html"></a></h14>
+   <h4> </h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h15><a class="two" href=".html"></a></h15>
+   <h4></h4>
+  </div>
+  <img src=".jpg" width="900px" height="300px">
+    <h16><a class="two" href=".html"></a></h16>
+   <h4> </h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h17><a class="two" href=".html"></a></h17>
+   <h4></h4>
+  </div>
+  <img src=".jpg" width="900px" height="300px">
+    <h18><a class="two" href=".html"></a></h18>
+   <h4> </h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h19><a class="two" href=".html"></a></h19>
+   <h4></h4>
+  </div>
+  <img src=".jpg" width="900px" height="300px">
+    <h20><a class="two" href=".html"></a></h20>
+   <h4> </h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h21><a class="two" href=".html"></a></h21>
+   <h4></h4>
+  </div>
+  <img src=".jpg" width="900px" height="300px">
+    <h22><a class="two" href=".html"></a></h22>
+   <h4> </h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h23><a class="two" href=".html"></a></h23>
+   <h4></h4>
+  </div>
+  <img src=".jpg" width="900px" height="300px">
+    <h24><a class="two" href=".html"></a></h24>
+   <h4> </h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h25><a class="two" href=".html"></a></h25>
+   <h4></h4>
+  </div>
+  <img src=".jpg" width="900px" height="300px">
+    <h26><a class="two" href=".html"></a></h26>
+   <h4> </h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h27><a class="two" href=".html"></a></h27>
+   <h4></h4>
+  </div>
+  <img src=".jpg" width="900px" height="300px">
+    <h28><a class="two" href=".html"></a></h28>
+   <h4> </h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h29><a class="two" href=".html"></a></h29>
+   <h4></h4>
+  </div>
+  <img src=".jpg" width="900px" height="300px">
+    <h30><a class="two" href=".html"></a></h30>
+   <h4> </h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h31><a class="two" href=".html"></a></h31>
+   <h4></h4>
+  </div>
+  <img src=".jpg" width="900px" height="300px">
+    <h32><a class="two" href=".html"></a></h32>
+   <h4> </h4>
+  </div>
+<div class="">
+    <img src=".jpg" width="900px" height="300px">
+    <h33><a class="two" href=".html"></a></h33>
+   <h4></h4>
+  </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+

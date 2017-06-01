@@ -1,0 +1,806 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: black;
+}
+li ul { display: none; }
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: lightcoral;
+  color: rebeccaPurplel;
+}
+ul li a:hover { background:cornflowerblue; }
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+li:hover li { float: none; }
+li:hover a { background: mistyrose; }
+li:hover li a:hover { background: papayawhip; }
+.main-navigation li ul li { border-top: 0; }
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+ .image{
+  position:relative;
+  padding-left: -10pxpx;
+}
+h1{
+  position: absolute; 
+   top: 60px; 
+   left:565;
+   color:Yellow; 
+   font-weight: bold;
+   font-size: 50px;
+ }
+p { 
+   position: absolute; 
+   top: 135px; 
+   left:615;
+   color:Yellow; 
+   font-size: 15px;
+   font-weight: bold;
+}
+ #menu {
+    position: absolute;
+    top: 450px;
+    color:fuchsia;
+    left:350px;
+    
+}
+#menu lii{
+  font-weight: bold;
+    margin-left: 14px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+aside{
+  margin-top: -10px;
+   margin-left:1000px;
+   color:black;
+  padding: 1em;
+}
+a.one:visited {color:black; font-size: 20px;}
+a.one:hover {color:coral; font-size: 20px;}
+summary{
+   margin-top: -170px;
+   margin-left:560px;
+}
+#see li2{
+    font-size: 20px;
+     margin-left:-20px;
+ }
+.div1{
+  width:100px;
+  height:30px;
+margin-left:-10px;
+margin-top: 30px;
+  border-style: outset;
+  border-radius: 18px;
+  color:crimson;
+  background-color: antiquewhite;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+}
+a.two:link, a.two:visited {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: inset;
+    border-radius: 8px;
+}
+a.two:hover{
+  background-color: cyan;
+}
+   .Fort{
+    margin-top: 20px;
+width:905px;
+height:500px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h3{
+    position: absolute; 
+   top:820px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 673px;
+}
+h4{
+  font-size: 17.5px;
+  text-align: center;
+}
+  .Tanot{
+    margin-top: 20px;
+width:905px;
+height:370px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h5{
+    position: absolute; 
+   top:1350px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 623px;
+}
+.Museum{
+    margin-top: 20px;
+width:905px;
+height:400px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h6{
+    position: absolute; 
+   top:1740px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 566px;
+}
+.Jain{
+    margin-top: 20px;
+width:905px;
+height:360px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h7{
+    position: absolute; 
+   top:2165px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 693px;
+}
+.Longewala{
+    margin-top: 20px;
+width:905px;
+height:360px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h8{
+    position: absolute; 
+   top:2545px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 548px;
+}
+.Patwaon{
+    margin-top: 20px;
+width:905px;
+height:400px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h9{
+    position: absolute; 
+   top:2925px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 628px;
+}
+.Gadsisar{
+    margin-top: 20px;
+width:905px;
+height:370px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h10{
+    position: absolute; 
+   top:3345px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 598px;
+}
+.bada {
+    margin-top: 20px;
+width:905px;
+height:420px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h11{
+    position: absolute; 
+   top:3735px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 718px;
+}
+.Desert{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h12{
+    position: absolute; 
+   top:4175px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 602px;
+}
+.Kuldhara {
+    margin-top: 20px;
+width:905px;
+height:370px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h13{
+    position: absolute; 
+   top:4585px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 504px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:370px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h14{
+    position: absolute; 
+   top:5295px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 699px;
+}
+. {
+    margin-top: 20px;
+width:905px;
+height:360px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h15{
+    position: absolute; 
+   top:5683px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 544px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h16{
+    position: absolute; 
+   top:6065px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 569px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h17{
+    position: absolute; 
+   top:6475px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 614px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h18{
+    position: absolute; 
+   top:6885px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 644px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:370px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h19{
+    position: absolute; 
+   top:7295px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 754px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:370px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h20{
+    position: absolute; 
+   top:7685px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 554px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h21{
+    position: absolute; 
+   top:8075px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 724px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h22{
+    position: absolute; 
+   top:8485px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 699px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h23{
+    position: absolute; 
+   top:8895px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 624px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h24{
+    position: absolute; 
+   top:9305px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 649px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:410px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h25{
+    position: absolute; 
+   top:9715px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 614px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h26{
+    position: absolute; 
+   top:10145px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 670px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:500px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h27{
+    position: absolute; 
+   top:10555px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 704px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:490px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h28{
+    position: absolute; 
+   top:11075px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 738px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:510px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h29{
+    position: absolute; 
+   top:11585px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 734px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:390px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h30{
+    position: absolute; 
+   top:12115px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 670px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:500px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h31{
+    position: absolute; 
+   top:12525px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 614px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:445px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h32{
+    position: absolute; 
+   top:13045px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 594px;
+}
+.{
+    margin-top: 20px;
+width:905px;
+height:440px;
+margin-left:-500px;
+  border-radius: 18px;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  border: outset;
+}
+   h33{
+    position: absolute; 
+   top:13510px;  
+   font-weight: bold;
+  font-size: 25px;
+margin-left: 654px;
+}
+body{
+  background-color: antiquewhite;
+  overflow-x:hidden; 
+}
+</style>
+<body >
+<nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="197">
+  <ul class="nav navbar-nav">
+    </ul>
+  <ul class="main-navigation">
+  <li><a href="finalf.html">Home</a></li>
+  <li><a href="#">Discover</a>
+    <ul>
+      <li><a href="history.html">History</a></li>
+      <li><a href="#">City</a>
+        <ul>
+          <li><a href="Jaipur.html">Jaipur</a></li>
+          <li><a href="Jaisalmer.html">Jaisalmer</a></li>
+          <li><a href="Udaipur.html">Udaipur</a></li>
+          <li><a href="Jodhpur.html">Jodhpur</a></li>
+          <li><a href="Bikaner.html">Bikaner</a></li>
+          <li><a href="Mountabu.html">Mount Abu</a></li>
+          <li><a href="SawaiMadhopur.html">Sawai Madhopur</a></li>
+          <li><a href="Alwar.html">Alwar</a></li>
+        </ul>
+        </li>
+<li><a href="#">Tradition</a>
+       <ul>
+          <li><a href="dance.html">Dance</a></li>
+          <li><a href="music.html">Music</a></li>
+<li><a href="Art.html">Art</a></li>
+<li><a href="rituals.html">Rituals</a></li>
+                  </ul>
+      </li>
+      <li><a href="#">Festival</a>
+<li><a href="#">Food</a>
+<li><a href="#">Famous People</a>
+<li><a href="#">Whether</a>
+<li><a href="#">Map</a>
+             </li>
+    </ul>
+  </li>
+  <li><a href="#">E-Tickting</a>
+<ul>
+<li><a href="#">Bus</a></li>
+      <li><a href="#">Train</a></li>
+</ul>
+  <li><a href="#">Hotel</a>  
+<li><a href="#">Help</a>
+<ul>
+<li><a href="#">Guide</a></li>
+      <li><a href="#">Police</a></li>
+</ul>
+</nav>
+<div class="image">
+<img src="jas.jpg" width="100%" height="500px">
+<h1 >Jaisalmer</h1>
+<p>The DESERT City</p>
+<ull id="menu">
+        <lii><a href="Jaisalmer1.html">Home</a></lii>
+        <lii><a href="stayjas.html">Stay</a></lii>
+        <lii><a href="visitjas.html">Visit</a></lii>
+          <lii><a href="moviesjas.html">Movies</a></lii>
+        <lii><a href="photojas.html">Photos</a></lii>
+    </ull>
+</src>
+<aside>
+    <h2>Plan a Trip</h2>
+     <lii><h4><a class="one" href="stayjas.html">Book A Hotel</a></h4></lii>
+        <lii><h4><a class="one" href="guidejas.html">Take A Guide</a></h4></lii>
+        <lii><h4><a  class="one"href="eventsjas.html">Upcomig Events</a></h4></lii>
+  </aside>
+ <summary>
+  <div class="div1">SEE</div>
+  <div class="Fort">
+    <img src="Jaisalmer-Fort.jpg" width="900px" height="300px">
+    <h3><a class="two" href="Fort.html">Jaisalmer Fort</a></h3>
+   <h4>Jaisalmer Fort is one of the largest fully preserved fortified cities in the world. It is situated in the city of Jaisalmer, in the Indian state of Rajasthan. It is a World Heritage Site.<br>
+Address: Fort Rd, Khejer Para, Manak Chowk, Amar Sagar Pol, Jaisalmer, Rajasthan 345001<br>
+Opened: 1156<br>
+Hours:  9AM–5PM<br>
+Built by: Rawal Jaisal<br>
+Phone: 02992 252 981<br>
+Architect: Rawal Jaisal</h4>
+  </div>
+<div class="Tanot">
+    <img src="Tanot.jpg" width="900px" height="300px">
+    <h5><a class="two" href="Tanot.html">Tanot Mata Temple</a></h5>
+   <h4>Address: Police Lines, Jaisalmer, Rajasthan 345001</h4>
+  </div>
+  <div class="Museum">
+  <img src="Museum.jpg" width="900px" height="300px">
+    <h6><a class="two" href=" Museum.html">Jaisalmer War Museum</a></h6>
+   <h4>The Jaisalmer War Museum was conceived by Lieutenant General Bobby Mathews, AVSM, VSM, General Officer Commanding, Desert Corps and constructed by the Desert Corps of the Indian Army.<br>
+Address: Thaiyat, Rajasthan 345001<br>
+Hours: 9AM–6PM </h4>
+  </div>
+<div class="Jain">
+    <img src="Jain.jpg" width="900px" height="300px">
+    <h7><a class="two" href="Jain.html">Jain Temples</a></h7>
+   <h4>Address: Khejer Para, Manak Chowk, Amar Sagar Pol, Jaisalmer, Rajasthan 345001</h4>
+  </div>
+  <div class="Longewala">
+  <img src="Longewala.jpg" width="900px" height="300px">
+    <h8><a class="two" href="Longewala.html">Longewala War Memorial</a></h8>
+   <h4>Address: Longewala, Jaisalmer, India </h4>
+  </div>
+<div class="Patwaon">
+    <img src="Patwon.jpeg" width="900px" height="300px">
+    <h9><a class="two" href="Patwaon.html">Patwaon-Ki-Haveli</a></h9>
+   <h4>Address: Patwon ki Haveliyan, Jaisalmer, Rajasthan 345001<br>
+Phone:095066 77081<br>
+Hours:9AM–5PM</h4>
+  </div>
+  <div class="Gadsisar">
+  <img src="Gadsisar.jpeg" width="900px" height="300px">
+    <h10><a class="two" href="Gadsisar.html">Gadsisar Sagar Lake</a></h10>
+   <h4>Address: Near Tilon Ki Gate  Near Jaisalmer Fort, Jaisalmer 345001, India </h4>
+  </div>
+<div class="Bada">
+    <img src="Bada.jpg" width="900px" height="300px">
+    <h11><a class="two" href="Bada.html">Bada Bagh</a></h11>
+   <h4>Bada Bagh, also called Barabagh is a garden complex about 6 km north of Jaisalmer on way to Ramgarh, and halfway between Jaisalmer and Lodhruva in the state of Rajasthan in India.<br>
+Address: Bada Baugh Chhatris Rd, Rajasthan 345001<br>
+Hours:  9AM–6PM<br>
+Phone: 087449 06257</h4>
+  </div>
+  <div class="Desert">
+  <img src="Desert.jpg" width="900px" height="300px">
+    <h12><a class="two" href="Desert.html">Desert National Park</a></h12>
+   <h4>Address: Myajlar Road, Jaisalmer, Rajasthan 345001<br>
+Phone:02992 252 489<br>
+Hours: 7AM–5PM </h4>
+  </div>
+<div class="Kuldhara">
+    <img src="Kuldhara.jpg" width="900px" height="300px">
+    <h13><a class="two" href="Kuldhara.html">Kuldhara Abandoned Village</a></h13>
+   <h4>Address: Kuldhara  On the road to Sam Sand Dunes and the Thar Desert, Jaisalmer 345001, India<br>
+Phone Number: +91 74052 62675</h4>
+  </div>
+</body>
