@@ -1,0 +1,43 @@
+<html>
+<head>
+	<style>
+	::before,
+::after {
+	content: ""; /*same content after and before the page*/
+}
+	.coverpage{
+		width: 320px; 
+	height: 460px;
+		margin-left: 200px;
+		margin-top: 50px;
+		background: url("jal.jpg");
+		 background: -webkit-linear-gradient url("jal.jpg"); 
+    background: -o-linear-gradient url("jal.jpg")
+           background: -moz-linear-gradient url("jal.jpg"); 
+  -webkit-transform: rotateY(-45deg) translateZ(0);
+	-moz-transform: rotateY(-45deg) translateZ(0);
+	transform: rotateY(-45deg) translateZ(0);
+	z-index: 100;
+		}
+		.coverpage:hover{
+		width: 320px; 
+	height: 460px;
+		margin-left: 200px;
+		margin-top: 50px;
+		-webkit-transition-duration: 1.8s;
+	-moz-transition-duration: 1.8s;
+	transition-duration: 1.8s
+  -webkit-transform: rotateY(-125deg) translateZ(0);
+	-moz-transform: rotateY(-125deg) translateZ(0);
+	transform: rotateY(-125deg) translateZ(0);
+	z-index: 100;
+		}
+		
+	</style>
+	</head>
+	<body>
+		<ul class="coverpage">
+			
+		</ul>
+			</body>
+</html>
