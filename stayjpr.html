@@ -1,0 +1,449 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: black;
+}
+li ul { display: none; }
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: lightcoral;
+  color: rebeccaPurplel;
+}
+ul li a:hover { background:cornflowerblue; }
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+li:hover li { float: none; }
+li:hover a { background: mistyrose; }
+li:hover li a:hover { background: papayawhip; }
+.main-navigation li ul li { border-top: 0; }
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+ .image{
+  position:relative;
+  padding-left: -10pxpx;
+}
+h1{position: absolute; 
+   top: 60px; 
+   left: 600; 
+   color:pink; 
+   font-weight: bold;
+   font-size: 50px;
+ }
+p { 
+   position: absolute; 
+   top: 135px; 
+   left: 682; 
+   color:pink; 
+   font-size: 15px;
+   font-weight: bold;
+}
+h {
+  position: absolute; 
+   top: 50px; 
+   left: 665; 
+   color:pink; 
+   font-weight: bold;
+   font-size: 80px;
+ }
+ #menu {
+    position: absolute;
+    top: 450px;
+    color:fuchsia;
+    left:350px;
+    
+}
+#menu lii{
+  font-weight: bold;
+    margin-left: 14px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+aside{
+  margin-top: 30px;
+   margin-left:1000px;
+   color:black;
+  padding: 1em;
+}
+a.one:visited {color:black; font-size: 20px;}
+a.one:hover {color:coral; font-size: 20px;}
+
+body{
+  background-color: antiquewhite;
+}
+summary{
+   margin-top: -170px;
+   margin-left:560px;
+   color:hotpink;
+}
+a.two:visited {color:green; font-size: 20px;}
+a.two:hover {color:brown; font-size: 20px;}
+
+.div1{
+  width:100px;
+  height:30px;
+margin-left:-10px;
+  border-style: inset;
+  color:crimson;
+  background-color: antiquewhite;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+}
+   .div2{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("oberoi.jpg");
+   background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+ ::-webkit-scrollbar {
+display: none;
+}
+h3{
+  font-size: 25px;
+}
+h5{
+  top:630px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div3{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("golden.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+   h7{
+  top:830px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div4{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("arya.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+    h8{
+  top:1030px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div5{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("radison.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+h9{
+  top:1230px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div6{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("Sarovar.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+h10{
+  top:1430px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div7{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("Umaid.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+h11{
+  top:1630px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div8{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("ibis.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+h12{
+  top:1830px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div9{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("Ashapurna.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+h13{
+  top:2030px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div10{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("marriott.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+h14{
+  top:2230px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div11{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("Chokhi.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+h15{
+  top:2440px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+body{
+  background-color: antiquewhite;
+  overflow-x:hidden;
+}
+</style>
+<body >
+<nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="197">
+  <ul class="nav navbar-nav">
+    </ul>
+  <ul class="main-navigation">
+  <li><a href="finalf.html">Home</a></li>
+  <li><a href="#">Discover</a>
+    <ul>
+      <li><a href="history.html">History</a></li>
+      <li><a href="#">City</a>
+        <ul>
+          <li><a href="Jaipur.html">Jaipur</a></li>
+          <li><a href="Jaisalmer.html">Jaisalmer</a></li>
+          <li><a href="Udaipur.html">Udaipur</a></li>
+          <li><a href="Jodhpur.html">Jodhpur</a></li>
+          <li><a href="Bikaner.html">Bikaner</a></li>
+          <li><a href="Mountabu.html">Mount Abu</a></li>
+          <li><a href="SawaiMadhopur.html">Sawai Madhopur</a></li>
+          <li><a href="Alwar.html">Alwar</a></li>
+        </ul>
+        </li>
+<li><a href="#">Tradition</a>
+       <ul>
+          <li><a href="dance.html">Dance</a></li>
+          <li><a href="music.html">Music</a></li>
+<li><a href="Art.html">Art</a></li>
+<li><a href="rituals.html">Rituals</a></li>
+                  </ul>
+      </li>
+      <li><a href="#">Festival</a>
+<li><a href="#">Food</a>
+<li><a href="#">Famous People</a>
+<li><a href="#">Whether</a>
+<li><a href="#">Map</a>
+             </li>
+    </ul>
+  </li>
+  <li><a href="#">E-Tickting</a>
+<ul>
+<li><a href="#">Bus</a></li>
+      <li><a href="#">Train</a></li>
+</ul>
+  <li><a href="#">Hotel</a>  
+<li><a href="#">Help</a>
+<ul>
+<li><a href="#">Guide</a></li>
+      <li><a href="#">Police</a></li>
+</ul>
+</nav>
+<div class="image">
+<img src="jprfinal.jpg" width="100%" height="500px">
+<h1 >Jai</h1>
+<h>p</h>
+   <h1 style="left:710px">ur</h1>
+<p>The PINK City</p>
+<ull id="menu">
+        <lii><a href="jaipur1.html">Home</a></lii>
+        <lii><a href="stayjpr.html">Stay</a></lii>
+        <lii><a href="Visitjpr.html">Visit</a></lii>
+          <lii><a href="Moviesjpr.html">Movies</a></lii>
+        <lii><a href="photojpr.html">Photos</a></lii>
+    </ull>
+</src>
+
+  <aside>
+    <h2>Plan a Trip</h2>
+     <lii><h4><a class="one" href="stayjpr.html">Book A Hotel</a></h4></lii>
+        <lii><h4><a class="one" href="guidejpr.html">Take A Guide</a></h4></lii>
+        <lii><h4><a  class="one"href="eventsjpr.html">Upcomig Events</a></h4></lii>
+  </aside>
+<summary>
+  <div class="div1">HOTEL</div>
+  <div class="div2"><center><a class="two" href="https://www.oberoihotels.com"><h3>The Oberio Hotel</h3></a></center><br>
+  <h5>  5-star hotel<br>
+Address: Goner Rd, Jagdish Colony, Paldi Meena, Jaipur, Rajasthan 302031<br>
+Phone: 0141 268 0101</h5></div>
+ <div class="div3"><center><a class="two" href="http://www.goldentulipjaipur.com/"><h3>The Golden Tulip</h3></a></center><br>
+  <h7>  4-star hotel<br>
+    Address: M.I Road, Opposite GPO, Jaipur, Rajasthan 302001<br>
+Phone: 0141 426 8777
+</h7></div>
+<div class="div4"><center><a class="two" href="http://www.aryaniwas.com/"><h3>Hotel Arya Niwas </h3></a></center><br>
+  <h8>  3-star hotel<br>
+  Address: Behind Amber Tower, Sansar Chandra Road, Jaipur, Raj 302001<br>
+Phone: 098290 40549
+</h8></div>
+<div class="div5"><center><a class="two" href="https://www.radissonblu.com"><h3>Radissonblu</h3></a></center><br>
+  <h9>  5-star hotel<br>
+  Address: Plot No. 5 - 6, Airport Plaza, Tonk Road, Durgapura, Jaipur, Raj <br>
+  Pin code: 302018<br>
+Phone: 0141 519 8888
+</h9></div>
+<div class="div6"><center><a class="two" href="http://www.sarovarporticojaipur.com/"><h3>Sarovar Portico</h3></a></center><br>
+  <h10>  3-star hotel<br>
+Address: Plot no. 90, Prince Road, Off Queens Road, Bhan Nagar - B, <br>
+Vaishali Nagar, Jaipur, Rajasthan 302021<br>
+Phone: 0141 515 7777
+</h10></div>
+<div class="div7"><center><a class="two" href="http://www.umaidbhawan.com/"><h3>Umaid Bhawan</h3></a></center><br>
+  <h11> 3-star hotel<br>
+Address: D1-2A, Behind Collectorate, Via Bank Road, Bani Park, Jaipur,<br>
+ Rajasthan 302016<br>
+Phone: 0141 231 6184 <br>
+</h11></div>
+<div class="div8"><center><a class="two" href="http://www.accorhotels.com"><h3>ibis Jaipur Hotel</h3></a></center><br>
+  <h12>  3-star hotel<br>
+Address: Civil Lines Metro Station, Elevated Ajmer Rd, Industrial Area,<br>
+ Madrampur, Civil Lines, Jaipur, Rajasthan 302006<br>
+Phone: 0141 475 5000
+</h12></div>
+<div class="div9"><center><a class="two" href="http://www.theashapurnahotels.com/"><h3>The Ashapurna Hotels</h3></a></center><br>
+  <h13>   3-star hotel<br>
+    Address: A-12, Shastri Nagar Road, Jaipur, Rajasthan 302016<br>
+Phone: 0141 519 0999<br>
+</h13></div>
+<div class="div10"><center><a class="two" href="http://www.marriott.com"><h3>Jaipur Marriott Hotel</h3></a></center><br>
+  <h14> 5-star hotel<br>
+Address: Ashram Marg, Near Jawahar Circle, Jaipur, Rajasthan 302015<br>
+Phone: 0141 456 7777 
+</h14></div>
+<div class="div11"><center><a class="two" href="http://www.chokhidhani.com"><h3>Chokhi Dhani Resort</h3></a></center><br>
+  <h15>Address: 12 Miles Tonk Road, Via Vatika, Sitapura, Jaipur, Rajasthan 303905<br>
+Phone: 0141 516 5000
+</h15></div>
+</summary>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

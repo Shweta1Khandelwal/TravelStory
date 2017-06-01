@@ -1,0 +1,432 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: black;
+}
+li ul { display: none; }
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: lightcoral;
+  color: rebeccaPurplel;
+}
+ul li a:hover { background:cornflowerblue; }
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+li:hover li { float: none; }
+li:hover a { background: mistyrose; }
+li:hover li a:hover { background: papayawhip; }
+.main-navigation li ul li { border-top: 0; }
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+ .image{
+  position:relative;
+  padding-left: -10pxpx;
+}
+h1{
+  position: absolute; 
+   top: 60px; 
+   left:565;
+   color:Yellow; 
+   font-weight: bold;
+   font-size: 50px;
+ }
+p { 
+   position: absolute; 
+   top: 135px; 
+   left:615;
+   color:Yellow; 
+   font-size: 15px;
+   font-weight: bold;
+}
+ #menu {
+    position: absolute;
+    top: 450px;
+    color:fuchsia;
+    left:350px;
+    
+}
+#menu lii{
+  font-weight: bold;
+    margin-left: 14px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+aside{
+  margin-top: 30px;
+   margin-left:1000px;
+   color:black;
+  padding: 1em;
+}
+a.one:visited {color:black; font-size: 20px;}
+a.one:hover {color:coral; font-size: 20px;}
+
+body{
+  background-color: antiquewhite;
+}
+summary{
+   margin-top: -170px;
+   margin-left:560px;
+   color:hotpink;
+}
+a.two:visited {color:green; font-size: 20px;}
+a.two:hover {color:brown; font-size: 20px;}
+#hotel li2{
+    font-size: 20px;
+     margin-left:-20px;
+}
+.div1{
+  width:100px;
+  height:30px;
+margin-left:-10px;
+  border-style: inset;
+  color:crimson;
+  background-color: antiquewhite;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+}
+
+   .div2{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("fifu.jpg");
+  background-repeat: no-repeat;
+   background-size: 320px 308px;
+     }
+ ::-webkit-scrollbar {
+display: none;
+}
+h3{
+  font-size: 25px;
+}
+h5{
+  top:630px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div3{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("rang.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+   h7{
+  top:830px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div4{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("Mirvana.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+    h8{
+  top:1030px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div5{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("shahi.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+h9{
+  top:1230px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div6{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("suryagrah.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+h10{
+  top:1430px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div7{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("golden-house-9.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+h11{
+  top:1630px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div8{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("surja.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+h12{
+  top:1830px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div9{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("akashdeep.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+h13{
+  top:2030px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div10{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("winds-desert-camps.png");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+h14{
+  top:2230px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+ .div11{
+width:945px;
+height:200px;
+margin-left:-500px;
+border-style: outset;
+ color:black;
+ font-size: 20px;
+  font-style: bold;
+  background: url("Hotel_Tokyo_Palace_Hotel_Tokyo_Palace8.jpg");
+  background-size: 320px 308px;
+  background-repeat: no-repeat;
+     }
+h15{
+  top:2440px;
+  left:390px;
+  position: absolute;
+  font-size: 18px;
+}
+</style>
+<body >
+<nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="197">
+  <ul class="nav navbar-nav">
+    </ul>
+  <ul class="main-navigation">
+  <li><a href="finalf.html">Home</a></li>
+  <li><a href="#">Discover</a>
+    <ul>
+      <li><a href="history.html">History</a></li>
+      <li><a href="#">City</a>
+        <ul>
+          <li><a href="Jaipur.html">Jaipur</a></li>
+          <li><a href="Jaisalmer.html">Jaisalmer</a></li>
+          <li><a href="Udaipur.html">Udaipur</a></li>
+          <li><a href="Jodhpur.html">Jodhpur</a></li>
+          <li><a href="Bikaner.html">Bikaner</a></li>
+          <li><a href="Mountabu.html">Mount Abu</a></li>
+          <li><a href="SawaiMadhopur.html">Sawai Madhopur</a></li>
+          <li><a href="Alwar.html">Alwar</a></li>
+        </ul>
+        </li>
+<li><a href="#">Tradition</a>
+       <ul>
+          <li><a href="dance.html">Dance</a></li>
+          <li><a href="music.html">Music</a></li>
+<li><a href="Art.html">Art</a></li>
+<li><a href="rituals.html">Rituals</a></li>
+                  </ul>
+      </li>
+      <li><a href="#">Festival</a>
+<li><a href="#">Food</a>
+<li><a href="#">Famous People</a>
+<li><a href="#">Whether</a>
+<li><a href="#">Map</a>
+             </li>
+    </ul>
+  </li>
+  <li><a href="#">E-Tickting</a>
+<ul>
+<li><a href="#">Bus</a></li>
+      <li><a href="#">Train</a></li>
+</ul>
+  <li><a href="#">Hotel</a>  
+<li><a href="#">Help</a>
+<ul>
+<li><a href="#">Guide</a></li>
+      <li><a href="#">Police</a></li>
+</ul>
+</nav>
+<div class="image">
+<img src="jas.jpg" width="100%" height="500px">
+<h1 >Jaisalmer</h1>
+<p>The DESERT City</p>
+<ull id="menu">
+       <lii><a href="Jaisalmer1.html">Home</a></lii>
+        <lii><a href="stayjas.html">Stay</a></lii>
+        <lii><a href="visitjas.html">Visit</a></lii>
+          <lii><a href="moviesjas.html">Movies</a></lii>
+        <lii><a href="photojas.html">Photos</a></lii>
+    </ull>
+</src>
+ <aside>
+    <h2>Plan a Trip</h2>
+     <lii><h4><a class="one" href="bikaner.html">Book A Hotel</a></h4></lii>
+        <lii><h4><a class="one" href="staybik.html">Take A Guide</a></h4></lii>
+        <lii><h4><a  class="one"href="visitbik.html">Upcomig Events</a></h4></lii>
+  </aside>
+<summary>
+  <div class="div1">HOTEL</div>
+  <div class="div2"><center><a class="two" href="http://www.hotelfifu.in/"><h3>Hotel Fifu</h3></a></center><br>
+  <h5> 3-star hotel<br>
+Address: Opposite Nagarpalika, Postal Colony, Jaisalmer, Rajasthan 345001<br>
+Phone: 02992 252 656 
+</h5></div>
+<div class="div3"><center><a class="two" href="http://www.hotelrangmahal.com/"><h3>Hotel Rang Mahal</h3></a></center><br>
+  <h7>  4-star hotel<br>
+Address: 5, Hotel Complex, Sam Road, Jaisalmer, Rajasthan 345001<br>
+Phone: 02992 250 907
+</h7></div>
+<div class="div4"><center><a class="two" href="http://www.mirvananatureresort.com/"><h3>Mirvana Nature Resort</h3></a></center><br>
+  <h8>  Address: R.G.Farms, Sodakore, Jaisalmer, Rajasthan 345001<br>
+Phone: 094144 40799
+</h8></div>
+<div class="div5"><center><a class="two" href="http://www.shahipalacehotel.com/"><h3>Hotel Shahi Palace</h3></a></center><br>
+  <h9>  2-star hotel<br>
+Address: Near State Bank of Bikaner & Jaipur bank ,Shiv road, Jaisalmer<br> Rajasthan 345001<br>
+Phone: 02992 255 920
+</h9></div>
+<div class="div6"><center><a class="two" href="http://www.suryagarh.com/"><h3>Suryagarh</h3></a></center><br>
+  <h10>  5-star hotel<br>
+Address: Kahala Phata, Sam Road, Jaisalmer, Rajasthan 345001<br>
+Phone: 02992 269 269
+</h10></div>
+<div class="div7"><center><a class="two" href="http://thegoldenhousejsm.com/"><h3>The Golden House </h3></a></center><br>
+  <h11>  Address: 28 CVS colony, opposite to collector office, Jaisalmer,<br> Rajasthan 345001<br>
+Phone: 02992 250 957
+</h11></div>
+<div class="div8"><center><a class="two" href="http://www.hotelsurja.com/"><h3>Surja hotel</h3></a></center><br>
+  <h12>  Address: East Fort Wall, On Fort Kotri Para, Near Rani Mahal, Jaisalmer,<br> Rajasthan 345001<br>
+Phone: 094147 61394
+</h12></div>
+<div class="div9"><center><a class="two" href="http://www.hotelakashdeepjsm.com/"><h3>Hotel Akashdeep</h3></a></center><br>
+  <h13>  2-star hotel<br>
+Address: Near Hanuman Circle, Jaisalmer, Rajasthan 345001<br>
+Phone: 02992 251 460
+</h13></div>
+<div class="div10"><center><a class="two" href="http://www.windsdesertcamp.com/"><h3>Winds Desert Camp</h3></a></center><br>
+  <h14>Address: Khaba Road, Near Sam Sand Dunes, Jaisalmer, Kanoi, Raj 345001<br>
+Phone: 099505 21870  
+</h14></div>
+<div class="div11"><center><a class="two" href="http://tokyopalace.net/"><h3>Hotel Tokyo Palace </h3></a></center><br>
+  <h15>  3-star hotel<br>
+Address: Near Fort, Airforce Chouraha, Dhibba Para, Jaisalmer, Raj 345001<br>
+Phone: 098284 66595
+</h15></div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
